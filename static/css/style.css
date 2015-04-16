@@ -1,0 +1,231 @@
+/* Space out content a bit */
+body {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: "Microsoft YaHei" ! important;
+}
+a:hover {text-decoration:none;}
+#SOHUCS{
+	min-height:410px;
+
+}
+.mt15{
+	margin-top:15px;
+}
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,.marketing,.footer {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.navbar-inverse .navbar-nav > li > a{
+	color:#999;
+}
+.navbar-inverse {
+background-color: #222222;
+border-color: #080808;
+}
+code{
+padding: 2px 0px;
+}
+.navbar-inverse {
+	-webkit-box-shadow: #000 0px 0px 5px;
+	-moz-box-shadow: rgba(0,0,0,1) -5px 0px 5px;
+	-o-box-shadow: rgba(0,0,0,1) 0px 0px 5px;
+	box-shadow: #000 0px 0px 5px;
+	border-bottom: 1px solid #999;
+}
+
+h4{
+	font-size: 1.5em;
+	color: #4572A7;
+	font-weight: normal;
+}
+.bs-callout {
+margin: 20px 0;
+padding: 15px 30px 15px 15px;
+border-left: 5px solid #EEE;
+}
+
+.bs-callout-danger {
+background-color: #FCF2F2;
+border-color: #DFB5B4;
+}
+
+h4 span{
+	color: #BBB;
+	margin-left: 7px;
+}
+
+.navbar-header .navbar-brand {
+	color: #ffffff;
+}
+
+/* Custom page header */
+.header {
+	border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 40px;
+	padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+	padding-top: 19px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media ( min-width : 768px) {
+	.container {
+		max-width: 730px;
+		
+	}
+}
+.container-main{
+	padding-top: 48px;
+	min-height:630px;
+}
+
+.btn{
+	height:38px;
+}
+.form-control{
+	height:38px;
+}
+
+.container-narrow>hr {
+	margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	padding-top: 30px;
+	background: #f4f4f4;
+	border: 1px solid #e5e5e5;
+	padding-bottom: 30px;
+}
+
+.search-box {
+	padding-left: 30px;
+	padding-right: 90px;
+}
+.res-box{
+	font-size:14px;
+}
+
+.jumbotron .btn {
+	width: 100px;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 20px 0;
+}
+
+.marketing p+h4 {
+	margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+	/* Remove the padding we set earlier */
+	.header,.marketing,.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	/* Space out the masthead */
+	.header {
+		margin-bottom: 30px;
+	}
+	/* Remove the bottom border on the jumbotron for visual effect */
+}
+
+
+.bs-callout-info {
+border-left-color: #5bc0de;
+}
+
+.bs-callout {
+padding: 20px;
+margin: 20px 0;
+border: 1px solid #eee;
+border-left-width: 5px;
+border-radius: 3px;
+}
+.bs-callout-info {
+border-left-color: #5bc0de;
+}
+#zc-sites .media{
+	width:350px;
+	float: left;
+	margin-top: 10px;
+}
+.mt0{
+	margin-top:0px;
+}
+#zc-sites .media-body{
+    height: 60px;
+    overflow: hidden;
+	width: 258px;
+}
+#zc-sites .media:first-child{
+		margin-top: 10px;
+}
+.ft14{
+	font-size:14px;
+}
+.ft12{
+	font-size:12px;
+}
+#zc-sites .media-object{
+	width:72px;
+	height:72px;
+}
+#scan-result-box{
+	margin-top: 15px;
+	line-height:24px;
+	font-size:12px;
+}
+.page-header{
+	margin:0px;
+}
+.bs-callout {
+padding: 10px 20px;}
+	
+    .list-item {
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #DDDDDD;
+        display: block;
+
+        padding: 8px;
+        position: relative;
+    	color:#555;
+    }
+	.list-item:hover{
+		color:#555;
+		background-color: #ebebeb;
+		text-decoration: none;
+	} 
+	.list-item.last{
+		border:0;
+		text-align: right;
+		padding-right: 30px;
+		color:#428bca;
+		border-radius: 5px;
+	}
+.left_box {
+padding-top: 60px;
+position: fixed;
+left:10px;
+bottom:10px;
+width: 230px;
+z-index: 998;
+}
+#scan-result-box ul li{
+	line-height: 26px;
+}

@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="scan">
+<form action="/scan" method="post">
+    <input type="text" name="scan" value="{{ request.form.scan }}"></br>
+    <div class="actions"><input type=submit value="scan"></div>
+</form>
+</div>
+{% for message in get_flashed_messages() %}
+<div class=flash>
+    {{ message }}
+</div>
+{% endfor %}
+{% endblock %}
